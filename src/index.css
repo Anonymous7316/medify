@@ -1,0 +1,62 @@
+:root {
+  font-family: Poppins;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: white;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+.SelectedCard{
+  height:153px; 
+  width:203px; 
+  background-color:#2AA7FF14; 
+  text-align:center;
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column; 
+  border-radius:10px; 
+  border: 1px solid #2AA7FF;
+  font-weight: 600;
+  gap: 2px;
+  font-size:18px; 
+  color:#2AA7FF;
+}
+.Card{
+  height:153px; 
+  width:203px;
+  background-color:#FAFBFE; 
+  text-align:center;
+  display:flex; 
+  justify-content:center; 
+  align-items:center; 
+  flex-direction:column; 
+  border-radius:10px; 
+  gap:2px;
+  font-size:18px; 
+  color:#ABB6C7;
+}
+.selectedOpt{
+  color:#2AA7FF;
+  border-bottom: 4px solid #2AA7FF;
+  height: 100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.navOpt{
+  height: 100%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}

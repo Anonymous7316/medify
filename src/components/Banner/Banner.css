@@ -1,0 +1,12 @@
+.banner{
+    background-color:'#2AA7FF'; 
+    color:white;
+    height:40;
+    width:'100%';
+    margin:0; 
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:'Poppins'
+}
